@@ -1,6 +1,6 @@
 var readLineSync = require("readline-sync");
 var userName = readLineSync.question("Enter your name please:\n");
-console.log(`Welcome ${userName} to Indian Cricket Quiz Game!\nYou can play to test your knowledge about Indian Cricket.\nYou can write any one option from a,b,c. You only need to write option serial alphabet i.e a or b or c\nClick the button on right bottom to play!\n`);
+console.log(`Welcome ${userName} to Indian Cricket Quiz Game!\nYou can play to test your knowledge about Indian Cricket.\nYou can write any one option from a,b,c. You only need to write option serial alphabet i.e a or b or c\n`);
 var score = 0;
 var questions =[ 
   {
