@@ -64,23 +64,22 @@ for (var i=0; i<questions.length; i++){
 
 console.log(`Final Score : ${score}/${10} `);
 if(score==0){
-  console.log("Your performance was very poor!");
+  console.log("Better luck next time!");
 }
-else if(1 <= score && score <=4){
-  console.log("Your performance was below par!");
-}
-else if(score == 5){
-  console.log("Moderate performance!");
+else if(1 <= score && score <=5){
+  console.log("Nice try!");
 }
 else if(5 < score && score <= 7){
-  console.log("Nice! You could do better");
+  console.log("Satisfactory, tried well!");
 }
 else if(score == 8){
-  console.log("Good Performance!");
+  console.log("Good!");
 }
 else if(score == 9){
-  console.log("Very good!");
+  console.log("Almost there, Very good!");
 }
 else{
-  console.log("Excellent!");
+  console.log("Outstanding! You are awesome");
 }
+
+console.log("\n    THANKS FOR PLAYING :)     \n");
